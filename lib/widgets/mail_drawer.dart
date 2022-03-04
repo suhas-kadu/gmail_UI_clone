@@ -122,6 +122,7 @@ class MailFilters extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListTile(
+      onTap: (){},
       leading: Icon(filterIcon),
       title: Text(
         filterName,
